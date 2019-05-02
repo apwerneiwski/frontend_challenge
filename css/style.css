@@ -1,0 +1,70 @@
+.container {
+  width: 375px;
+}
+
+header, footer {
+  background-color: #294889;
+  color: #fff;
+  display: flex;
+  padding: 20px;
+}
+
+.h2 {
+  align-content: center;
+  padding: 10px;
+  display: block;
+}
+
+.left-arrow {
+  float: left;
+}
+
+li {
+ display: inline-block;
+ margin-left: 15px;
+ margin-bottom:
+}
+
+.info {
+  float: right;
+  margin-right: 1px;
+}
+
+span {
+  display: flex;
+}
+
+.stops-list {
+  display: flex;
+}
+
+.stop-info {
+  display: inline-block;
+  align-items: center;
+  border-bottom: 1px solid #294889;
+  padding: 20px;
+  margin-right: 85px;
+}
+
+ .stop-badge {
+   margin-right: 1px;
+   display: inline-block;
+   border: 1px solid #294889;
+   border-radius: 5px;
+   padding: 5px;
+   width: 10%
+}
+
+.eta {
+  float: right;
+  width: 20%;
+  display: inline-block;
+  margin-right: 15px;
+  border-bottom: 1px solid #294889;
+}
+
+.arrow-right {
+  display: inline;
+  float: right;
+  width: 10%;
+}
