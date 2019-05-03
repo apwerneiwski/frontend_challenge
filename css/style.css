@@ -20,9 +20,10 @@ header, footer {
 }
 
 li {
- display: inline-block;
+ display: flex;
  margin-left: 15px;
  margin-bottom:
+ width: 100%;
 }
 
 .info {
@@ -36,6 +37,7 @@ span {
 
 .stops-list {
   display: flex;
+  width: 100%;
 }
 
 .stop-info {
@@ -43,6 +45,7 @@ span {
   align-items: center;
   border-bottom: 1px solid #294889;
   padding: 20px;
+  width: 75%
 }
 
  .stop-badge {
@@ -51,19 +54,17 @@ span {
    border: 1px solid #294889;
    border-radius: 5px;
    padding: 5px;
-   width: 10%
+   width: 20%
 }
 
 .eta {
-  float: right;
   width: 20%;
   display: inline-block;
-  margin-right: 15px;
+  margin:
   border-bottom: 1px solid #294889;
 }
 
 .arrow-right {
-  display: inline;
-  float: right;
+  display: flex;
   width: 10%;
 }
