@@ -5,14 +5,16 @@
 header, footer {
   background-color: #294889;
   color: #fff;
-  display: flex;
-  padding: 20px;
+  padding: 10px;
 }
-
-.h2 {
-  align-content: center;
-  padding: 10%;
-  display: block;
+header div {
+  background-color: red;
+  display: inline-block;
+}
+.location {
+  text-align: center;
+  margin: auto;
+  width: 80%;
 }
 
 .left-arrow {
@@ -22,7 +24,7 @@ header, footer {
 li {
  display: flex;
  margin-left: 15px;
- margin-bottom:
+ margin-bottom;
  width: 100%;
 }
 
