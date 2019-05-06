@@ -5,7 +5,6 @@
 header, footer {
   background-color: #294889;
   color: #fff;
-<<<<<<< HEAD
   padding: 20px;
 }
 
@@ -14,14 +13,6 @@ header div {
   display: inline-block;
 }
 
-=======
-  padding: 10px;
-}
-header div {
-  background-color: red;
-  display: inline-block;
-}
->>>>>>> 9f51823d5f1c60e4ba8b87c1131d2c30845dc5f5
 .location {
   text-align: center;
   margin: auto;
@@ -35,10 +26,6 @@ header div {
 li {
  display: flex;
  margin-left: 15px;
-<<<<<<< HEAD
-=======
- margin-bottom;
->>>>>>> 9f51823d5f1c60e4ba8b87c1131d2c30845dc5f5
  width: 100%;
 }
 
